@@ -1,8 +1,12 @@
 package main
 
 import (
-  "github.com/gorilla/mux"
-  "log"
+	"encoding/json"
+	"github.com/gorilla/mux"
+	"log"
+	"math/rand"
+	"net/http"
+	"strconv"
 )
 
 type Book struct {
