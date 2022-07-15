@@ -16,9 +16,16 @@ type Author struct {
 	LastName  string `json:"lastname"`
 }
 
+// Bookのデータを保持するスライスの作成
+var books []Book
+
 func main() {
 	// ルーターのイニシャライズ
 	r := mux.NewRouter()
+
+	// モックデータの作成
+	books = append(books, Book{ID: "1", Title: "Book one", Author: &Author{FirstName: "Philip", LastName: "Williams"}})
+	books = append(books, Book{ID: "2", Title: "Book Two", Author: &Author{FirstName: "John", LastName: "Johnson"}})
 
 	// ルート(エンドポイント)
 	r.HandleFunc("/api/books", getBooks).Methods("GET")
