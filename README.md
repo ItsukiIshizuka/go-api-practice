@@ -20,3 +20,8 @@
       % go install github.com/gorilla/mux@latest
       package github.com/gorilla/mux is not a main package
     ```
+
+## その他
+- postmanの使い方
+  - デスクトップアプリから利用しないとlocalhostにアクセスできない
+  - https://www.tairaengineer-note.com/postman-how-to-use/
