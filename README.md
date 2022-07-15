@@ -10,6 +10,7 @@
 
 ## 参照した記事とは異なる点
 - 最初に `go mod init ***` を実行する → そうしないと次の `go get` でエラーが発生する
+  - https://teratail.com/questions/324895
 - `go get` コマンドはGo1.16以降使用しない(代わりに `go install` を使用する)
   - `go install` を使用する場合は `****@version指定` を必ず付ける
     - 最新で良い場合は `@latest` を付ける
