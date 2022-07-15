@@ -19,6 +19,26 @@ type Author struct {
 // Bookのデータを保持するスライスの作成
 var books []Book
 
+// Get All Books
+func getBooks(w http.ResponseWriter, r *http.Request) {
+}
+
+// Get Single Book
+func getBook(w http.ResponseWriter, r *http.Request) {
+}
+
+// Create a Book
+func createBook(w http.ResponseWriter, r *http.Request) {
+}
+
+// Update a Book
+func updateBook(w http.ResponseWriter, r *http.Request) {
+}
+
+// Delete a Book
+func deleteBook(w http.ResponseWriter, r *http.Request) {\
+}
+
 func main() {
 	// ルーターのイニシャライズ
 	r := mux.NewRouter()
