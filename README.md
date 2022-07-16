@@ -27,4 +27,4 @@
   - デスクトップアプリから利用しないとlocalhostにアクセスできない
   - https://www.tairaengineer-note.com/postman-how-to-use/
 - structの `json:"***"` について
-  - [structのタグの使い方](./struct_practice.go)
+  - [structのタグの使い方](/practice/struct/struct_practice.go)
