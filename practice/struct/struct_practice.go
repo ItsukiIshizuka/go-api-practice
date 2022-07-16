@@ -32,14 +32,10 @@ func main() {
 	fmt.Println("【構造体の表示】")
 	fmt.Printf("%v", book) // 構造体の表示
 
-	fmt.Println("\n")
-
 	fmt.Println("【タグの表示】")
 	fmt.Println(reflect.TypeOf(book).Field(0).Tag) //タグの取得(key:value型)
 	fmt.Println(reflect.TypeOf(book).Field(1).Tag) //タグの取得(文字列)
 	fmt.Println(reflect.TypeOf(book).Field(2).Tag) //タグの取得(複数のkey:value型)
-
-	fmt.Println("\n")
 
 	fmt.Println("【タグのvalue表示】")
 	fmt.Println(reflect.TypeOf(book).Field(0).Tag.Get("json")) //タグのvalueを取得
