@@ -21,7 +21,9 @@
       package github.com/gorilla/mux is not a main package
     ```
 
-## その他
+## 学習
 - postmanの使い方
   - デスクトップアプリから利用しないとlocalhostにアクセスできない
   - https://www.tairaengineer-note.com/postman-how-to-use/
+- structの `json:"***"` について
+  - ./struct_practice.go
