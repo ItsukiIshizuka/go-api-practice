@@ -17,7 +17,8 @@
   - https://qiita.com/eihigh/items/9fe52804610a8c4b7e41
   - **ここまで調べたけど、結局 `go install` コマンドではエラーが出てインストールできなかった**
     ```
-      % go install github.com/gorilla/mux@latest
+      //エラー文
+      %go install github.com/gorilla/mux@latest
       package github.com/gorilla/mux is not a main package
     ```
 
