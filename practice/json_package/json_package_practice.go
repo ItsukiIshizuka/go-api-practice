@@ -1,5 +1,10 @@
 /**
-	json パッケージの encoding について学習
+json パッケージの encoding について学習
+	エンコードは、GO -> JSON。デコードは、JSON -> GO を行う。
+		エンコードには Marshal() または NewEncoder().Encode() を使用する
+		デコードには Unmarshal() または NewDecoder().Decode() を使用する
+	https://zenn.dev/hsaki/articles/go-convert-json-struct
+	https://osamu-tech-blog.com/go-encord-decord/
 **/
 
 package main
