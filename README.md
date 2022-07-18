@@ -28,3 +28,5 @@
   - https://www.tairaengineer-note.com/postman-how-to-use/
 - structの `json:"***"` について
   - [structのタグの使い方](/practice/struct/struct_practice.go)
+- jsonのEncoder Decoderについて
+  - [json/encoderの使い方](/practice/json_package/json_package_practice.go)
